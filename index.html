@@ -1,14 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Rubén</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruben SysDev - Portfolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin:0;
+        padding:0;
+        background: #f0f2f5;
+        color: #333;
+    }
+    header {
+        background: #007acc;
+        color: white;
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.8rem;
+    }
+    header p {
+        margin: 0.5rem 0 0;
+        font-size: 1.2rem;
+    }
+    main {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    section {
+        margin-bottom: 2rem;
+    }
+    h2 {
+        color: #007acc;
+        margin-bottom: 0.5rem;
+    }
+    p {
+        line-height: 1.6;
+    }
+    .buttons a {
+        display: inline-block;
+        margin: 0.5rem 0.5rem 0 0;
+        padding: 0.7rem 1.2rem;
+        background: #007acc;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+    .buttons a:hover {
+        background: #005f99;
+    }
+    .badges img {
+        height: 30px;
+        margin-right: 10px;
+    }
+    footer {
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        color: #666;
+    }
+</style>
 </head>
 <body>
-    <a class="button" href="cv.pdf" target="_blank">Ver CV</a>
-    <a class="button" href="https://github.com/ruben-sysdev" target="_blank">Ver GitHub</a>
-    <a class="button" href="mailto:tu_correo@example.com">Enviar correo</a>
+
+<header>
+    <h1>Ruben — SysDev</h1>
+    <p>Administrador de Sistemas | Programador</p>
+</header>
+
+<main>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy un administrador de sistemas apasionado por la automatización, la estabilidad y el rendimiento. Combino experiencia en Linux y Windows con conocimientos en desarrollo web y scripting.</p>
+</section>
+
+<section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="badges">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Explora mis proyectos en GitHub:</p>
+    <div class="buttons">
+        <a href="https://github.com/ruben-sysdev" target="_blank">Ver GitHub</a>
+    </div>
+</section>
+
+<section id="cv">
+    <h2>Currículum</h2>
+    <p>Descarga o visualiza mi CV:</p>
+    <div class="buttons">
+        <a href="cv.pdf" target="_blank">Ver CV</a>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Envíame un correo directamente:</p>
+    <div class="buttons">
+        <a href="mailto:rubenlondri@gmail.com">Enviar correo</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    &copy; 2025 Ruben — Todos los derechos reservados.
+</footer>
 
 </body>
 </html>
